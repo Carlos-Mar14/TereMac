@@ -1,0 +1,35 @@
+package servlets;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import org.apache.jasper.tagplugins.jstl.core.Out;
+
+
+public class Procesador extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    
+    public Procesador() {
+        super();
+        
+    }
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("Ejecutado metodo doPost");
+		String nomParam = request.getParameter("form_nom");
+		System.out.println(nomParam);
+		
+		PrintWriter out = response.getWriter();
+		out.write("Hola " + nomParam);
+		out.close();
+		
+	}
+
+}

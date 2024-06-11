@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+/Users/foap/eclipse-workspace-JEE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2999240292.index
+/practica2/src/main/java
+/Users/foap/eclipse-workspace-JEE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/434416888.index
+/practica2/src/main/java

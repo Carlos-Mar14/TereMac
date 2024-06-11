@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/foap/eclipse-workspace-JEE/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2241437297.index
+2159547110.index
+3858747.index
+1722264223.index
+2149437084.index
+2082863786.index
+1077737216.index

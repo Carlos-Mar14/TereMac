@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+</head>
+<body>
+
+<h1><b>Alta alumno</b></h1>
+
+<form name="datos_alumnos" action="procesador" method="post">
+	<label for="nom">Nombre</label>
+	<input type="text" name="form_nom" required size="20" id="nom">
+	<br>
+	<input type="submit" value="Alta">
+
+</form>
+
+
+</body>
+</html>
